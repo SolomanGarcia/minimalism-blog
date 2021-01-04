@@ -43,6 +43,12 @@ Layout
   justify-content: space-between;
 }
 
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+}
+
 header {
   background: #f8f8f8;
   padding: 2em 0;
