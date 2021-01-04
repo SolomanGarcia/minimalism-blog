@@ -4,8 +4,19 @@
     font-family: 'Ubuntu', sans-serif;
  */
 
+ body {
+   margin: 0;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ /* =================
+    Typography
+    ================= */
+
  header {
    text-align: center;
+   background: #f8f8f8;
+   padding: 2em 0;
  }
 
  nav ul {
@@ -24,5 +35,5 @@
  }
 
  nav a:hover{
-   
+
  }
